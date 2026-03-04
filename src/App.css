@@ -17,3 +17,20 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.main-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  gap: 7px;
+  background-color: rgb(168, 170, 170);
+}
+
+.sidebar-child {
+  background-color: rgb(211, 233, 233);
+  /* grid-row: span 9 / span 9; */
+}
+.navbar-child {
+  background-color: bisque;
+  /* grid-column: span 5 / span 5;
+  grid-row: span 3 / span 3; */
+}

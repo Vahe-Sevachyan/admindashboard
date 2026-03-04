@@ -1,0 +1,7 @@
+.main-display-wrapper {
+  background-color: aliceblue;
+  /* grid-column: span 5 / span 5;
+  grid-row: span 6 / span 6;
+  grid-column-start: 2;
+  grid-row-start: 4; */
+}
