@@ -6,9 +6,9 @@ interface NavbarBarProp {
 function NavBar({ claassName = "" }: NavbarBarProp) {
   return (
     <div className="navbar-wrapper">
-      <Button>{<span>New</span>}</Button>
-      <Button>{<span>Upload</span>}</Button>
-      <Button>{<span>Share</span>}</Button>
+      <Button>{"New"}</Button>
+      <Button>{"Upload"}</Button>
+      <Button>{"Share"}</Button>
     </div>
   );
 }

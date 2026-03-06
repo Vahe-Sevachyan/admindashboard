@@ -1,27 +1,25 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
-
 .main-wrapper {
-  max-width: 1300px;
-  display: grid;
-  margin: auto;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(9, 1fr);
-  gap: 7px;
-  background-color: rgb(168, 170, 170);
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sidebar-child {
-  /* background-color: rgb(211, 233, 233); */
+.dashboard-container {
+  display: flex;
+  width: 1200px;
+  height: 800px;
+  border: 1px solid black;
+}
+.sidebar-wrapper {
+  background-color: rgb(211, 233, 233);
+  max-width: 20%;
+  min-width: 150px;
+  /* display: grid; */
+  /* grid-template-columns: minmax(175px, 250px); */
   /* grid-row: span 9 / span 9; */
 }
-
-.navbar-child {
-  /* background-color: bisque; */
-  /* grid-column: span 5 / span 5;
-  grid-row: span 3 / span 3; */
+.main-content {
+  background-color: rgb(77, 135, 135);
+  width: 100%;
 }
