@@ -12,4 +12,5 @@ function NavBar({ claassName = "" }: NavbarBarProp) {
     </div>
   );
 }
+
 export default NavBar;

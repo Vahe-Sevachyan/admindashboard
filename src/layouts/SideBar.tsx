@@ -1,23 +1,23 @@
-import SideBarLink from "../components/PageLink";
+import AnchorLink from "../components/AnchorLink";
 import "../styles/SideBar.css";
 interface SideBarProp {
   className?: string;
 }
-function SideBar({ claassName = "" }: SideBarProp) {
+function SideBar({ className = "" }: SideBarProp) {
   return (
     <section className="sidebar-wrapper">
       <div className="pageLinks">
-        <SideBarLink>{<a href="">Home</a>}</SideBarLink>
-        <SideBarLink>{<a href="">Profile</a>}</SideBarLink>
-        <SideBarLink>{<a href="">Messages</a>}</SideBarLink>
-        <SideBarLink>{<a href="">History</a>}</SideBarLink>
-        <SideBarLink>{<a href="">Task</a>}</SideBarLink>
-        <SideBarLink>{<a href="">Communities</a>}</SideBarLink>
+        <AnchorLink>{<a href="">Home</a>}</AnchorLink>
+        <AnchorLink>{<a href="">Profile</a>}</AnchorLink>
+        <AnchorLink>{<a href="">Messages</a>}</AnchorLink>
+        <AnchorLink>{<a href="">History</a>}</AnchorLink>
+        <AnchorLink>{<a href="">Task</a>}</AnchorLink>
+        <AnchorLink>{<a href="">Communities</a>}</AnchorLink>
       </div>
       <div className="supportLinks">
-        <SideBarLink>{<a href="">Settings</a>}</SideBarLink>
-        <SideBarLink>{<a href="">Support</a>}</SideBarLink>
-        <SideBarLink>{<a href="">Privacy</a>}</SideBarLink>
+        <AnchorLink>{<a href="">Settings</a>}</AnchorLink>
+        <AnchorLink>{<a href="">Support</a>}</AnchorLink>
+        <AnchorLink>{<a href="">Privacy</a>}</AnchorLink>
       </div>
     </section>
   );

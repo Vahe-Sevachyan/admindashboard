@@ -8,7 +8,7 @@ function App() {
     <div className="main-wrapper">
       <SideBar className="sidebar-child" />
       <NavBar className="navbar-child" />
-      <MainDisplay claassName="maindisplay-child" />
+      <MainDisplay className="main-display-wrapper" />
     </div>
   );
 }
