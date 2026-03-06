@@ -1,11 +1,16 @@
 import "../styles/MainDisplay.css";
-interface MainDisplayProp {
-  className?: string;
-}
-function MainDisplay({ className = "" }: MainDisplayProp) {
+import Card from "../components/Card";
+// interface MainDisplayProp {
+//   className?: string;
+// }
+function MainDisplay() {
   return (
     <div className="main-display-wrapper">
-      <p>test</p>
+      <div>
+        <Card title="test two" description="this is a description">
+          tests
+        </Card>
+      </div>
     </div>
   );
 }

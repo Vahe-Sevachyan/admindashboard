@@ -4,8 +4,8 @@ interface UserProfileProps {
 }
 function UserProfile({ username, useravatar }: UserProfileProps) {
   return (
-    <div>
-      <img src={useravatar} alt="" />
+    <div className="userprofile-wrapper">
+      <img src={useravatar} />
       <h4>{username}</h4>
     </div>
   );

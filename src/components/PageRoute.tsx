@@ -1,8 +1,8 @@
 import type { ReactNode } from "react";
-interface LinkProps {
+interface PageRouteProps {
   children: ReactNode;
 }
-function AnchorLink({ children }: LinkProps) {
+function PageRoute({ children }: PageRouteProps) {
   return <span className="link__body">{children}</span>;
 }
-export default AnchorLink;
+export default PageRoute;

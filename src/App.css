@@ -12,14 +12,18 @@
   border: 1px solid black;
 }
 .sidebar-wrapper {
-  background-color: rgb(211, 233, 233);
+  background-color: rgb(63, 170, 236);
   max-width: 20%;
   min-width: 150px;
+  /* color: white; */
   /* display: grid; */
   /* grid-template-columns: minmax(175px, 250px); */
   /* grid-row: span 9 / span 9; */
 }
 .main-content {
-  background-color: rgb(77, 135, 135);
+  /* background-color: rgb(77, 135, 135); */
   width: 100%;
+}
+.userprofile-wrapper {
+  display: flex;
 }

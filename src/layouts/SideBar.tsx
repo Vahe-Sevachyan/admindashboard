@@ -1,23 +1,23 @@
-import AnchorLink from "../components/AnchorLink";
+import PageRoute from "../components/PageRoute";
 import "../styles/SideBar.css";
-interface SideBarProp {
-  className?: string;
-}
-function SideBar({ className = "" }: SideBarProp) {
+// interface SideBarProp {
+//   className?: string;
+// }
+function SideBar() {
   return (
-    <section className="sidebar-wrapper">
+    <section className="sidebar">
       <div className="pageLinks">
-        <AnchorLink>{<a href="">Home</a>}</AnchorLink>
-        <AnchorLink>{<a href="">Profile</a>}</AnchorLink>
-        <AnchorLink>{<a href="">Messages</a>}</AnchorLink>
-        <AnchorLink>{<a href="">History</a>}</AnchorLink>
-        <AnchorLink>{<a href="">Task</a>}</AnchorLink>
-        <AnchorLink>{<a href="">Communities</a>}</AnchorLink>
+        <PageRoute>{<a href="">Home</a>}</PageRoute>
+        <PageRoute>{<a href="">Profile</a>}</PageRoute>
+        <PageRoute>{<a href="">Messages</a>}</PageRoute>
+        <PageRoute>{<a href="">History</a>}</PageRoute>
+        <PageRoute>{<a href="">Task</a>}</PageRoute>
+        <PageRoute>{<a href="">Communities</a>}</PageRoute>
       </div>
       <div className="supportLinks">
-        <AnchorLink>{<a href="">Settings</a>}</AnchorLink>
-        <AnchorLink>{<a href="">Support</a>}</AnchorLink>
-        <AnchorLink>{<a href="">Privacy</a>}</AnchorLink>
+        <PageRoute>{<a href="">Settings</a>}</PageRoute>
+        <PageRoute>{<a href="">Support</a>}</PageRoute>
+        <PageRoute>{<a href="">Privacy</a>}</PageRoute>
       </div>
     </section>
   );

@@ -1,5 +1,34 @@
 .navbar-wrapper {
-  background-color: bisque;
-  /* grid-column: span 5 / span 5;
-  grid-row: span 3 / span 3; */
+  background-color: rgb(241, 240, 239);
+}
+.nav-top-section {
+  display: flex;
+  width: 90%;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.nav-bottom-section {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 75px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.nav-input {
+  width: 50%;
+  height: 25px;
+  border-radius: 30px;
+  border: none;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
 }

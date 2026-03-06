@@ -1,14 +1,14 @@
 import Button from "../components/Button";
 import UserProfile from "../components/UserProfile";
 import "../styles/Navbar.css";
-interface NavbarBarProps {
-  className?: string;
-}
-function NavBar({ claassName = "" }: NavbarBarProps) {
+// interface NavbarBarProps {
+//   className?: string;
+// }
+function NavBar() {
   return (
     <div className="navbar-wrapper">
       <div className="nav-top-section">
-        <input type="text" />
+        <input type="text" className="nav-input" />
         <span>
           <UserProfile username="Morgan Oakley" useravatar="" />
         </span>
